@@ -1,0 +1,46 @@
+.Splashscreen{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Splashscreen-text{
+    font-size: 10vh;
+}
+
+.ball{
+    height: 50vh;
+    width: 50vh;
+    border-radius: 100%;
+    position: absolute;
+}
+
+.ball.red{
+    background-color: red;
+    margin-top: -80vh;
+    margin-right: -80vh;
+}
+.ball.blue{
+    background-color: blue;
+    margin-bottom: -80vh;
+    margin-left: -80vh;
+}
+
+@keyframes logo-spin {
+    from {
+      transform:  scale(1);
+    }
+    50% {
+      transform:  scale(2);
+    }
+    to {
+      transform:  scale(1);
+    }
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .ball {
+      animation: logo-spin infinite 20s linear;
+    }
+  }

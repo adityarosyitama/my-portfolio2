@@ -1,0 +1,61 @@
+.projects {
+  padding-top: 1vh;
+  padding-bottom: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+
+.projects2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 50vh;
+}
+
+.projectsbutton {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.projectstext {
+  border-color: white;
+  border-width: 1;
+  padding: 1vh;
+  border-radius: 50vh;
+  font-size: x-large;
+}
+
+.projects3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  padding-top: 5vh;
+}
+
+.projectstext2 {
+  font-size: x-large;
+}
+
+@media (max-width: 900px) {
+  .projectstext {
+    font-size: xx-large;
+  }
+  .projectsimg {
+    height: 80%;
+    width: 80%;
+  }
+  .projects {
+    padding-left: 3vh;
+    padding-right: 3vh;
+  }
+}
+@media (min-width: 900px) {
+  .projects {
+    padding-left: 10vh;
+    padding-right: 10vh;
+  }
+}

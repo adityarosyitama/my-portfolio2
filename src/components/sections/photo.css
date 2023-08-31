@@ -1,0 +1,7 @@
+@media (max-width: 900px) {
+  .photo_img {
+    width: 30vh;
+  }
+}
+@media (min-width: 900px) {
+}

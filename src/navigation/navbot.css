@@ -1,0 +1,32 @@
+/* background: linear-gradient(to bottom, #ffcc00, #ff3300); */
+
+.navbot {
+  width: 100%;
+  color: white;
+}
+
+.navbot_text{
+  font-size: x-large;
+  font-weight: bolder;
+}
+
+@media (min-width: 900px) {
+  .navbot {
+    display: none;
+  }
+}
+@media (max-width: 900px) {
+  .navbot {
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    bottom: 0;
+    flex-direction: row;
+    font-size: 50;
+    height: 10vh;
+    padding-top: 5vh;
+    background: linear-gradient(to bottom, transparent, rgba(0,0,0,1));
+  }
+}
